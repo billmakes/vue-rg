@@ -6,7 +6,7 @@ module.exports = {
     phone: '(555) 555-3215',
     location: 'Tampa, FL',
     desc:
-      'Duis sed egestas urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur pellentesque pellentesque ultrices. Nullam ut vestibulum justo, nec ultricies libero. Nullam sagittis, metus in aliquet malesuada, dui tortor consequat elit, nec sollicitudin mauris magna et purus. Phasellus dignissim sollicitudin massa nec congue. Phasellus nec nibh ut mauris bibendum feugiat.'
+      'Duis sed egestas urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur pellentesque pellentesque ultrices. Nullam ut vestibulum justo, nec ultricies libero. Nullam sagittis, metus in aliquet malesuada, dui tortor consequat elit, nec sollicitudin mauris magna et purus.'
   },
   social: {
     first: {

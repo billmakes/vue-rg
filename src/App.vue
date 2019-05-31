@@ -3,7 +3,11 @@
     <Resume></Resume>
     <div class="footer">
       <span>
-        Made with Resume Generator by
+        Made with
+        <a href="https://github.com/billmakes/vue-rg" target="_blank"
+          >Resume Generator</a
+        >
+        by
         <a href="https://github.com/billmakes" target="_blank">@billmakes</a>
       </span>
     </div>
