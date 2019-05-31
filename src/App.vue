@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Resume></Resume>
+    <div class="footer">
+      <span>
+        Made with Resume Generator by
+        <a href="https://github.com/billmakes" target="_blank">@billmakes</a>
+      </span>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Resume from './components/Resume.vue'
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
-    HelloWorld
+    Resume
   }
-};
+}
 </script>
 
 <style lang="scss">
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+body {
+  background: $background-color;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  color: #333;
 }
 </style>
