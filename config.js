@@ -1,18 +1,18 @@
 module.exports = {
   bio: {
     name: 'Thomas A. Anderson',
-    title: 'Software Engineer',
+    title: 'Software Developer',
     email: 'mail@mail.com',
     phone: '(555) 555-3215',
-    location: 'Tampa, FL',
+    location: 'Sometown, MA',
     desc:
-      'Duis sed egestas urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur pellentesque pellentesque ultrices. Nullam ut vestibulum justo, nec ultricies libero. Nullam sagittis, metus in aliquet malesuada, dui tortor consequat elit, nec sollicitudin mauris magna et purus. Phasellus dignissim sollicitudin massa nec congue. Phasellus nec nibh ut mauris bibendum feugiat.'
+      'Software developer with experience in e-commerce, enterprise and high-performance web technologies. Skilled at defining, designing and implementing a highly secure, continuous-deployment pipeline to update applications in cloud environments.'
   },
   social: {
     first: {
       display: true,
       label: 'Github',
-      url: 'https://github.com/neo'
+      url: 'https://github.com/'
     },
     second: {
       display: true,
@@ -22,49 +22,71 @@ module.exports = {
   },
   experience: {
     first: {
-      title: 'Senior Software Engineer',
-      company: 'billmakes',
+      title: 'Software Developer',
+      company: 'ABC COMPANY',
       time: 'Jan 2019 – Present',
-      location: 'Tampa, FL',
+      location: 'Sometown, MA',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sodales leo sed fringilla. Morbi non tempor augue, vel semper sem. Mauris ut finibus enim. Aliquam ut ligula a augue fringilla convallis. Morbi id facilisis ante. '
+        'Serve in a client-facing role translating business requirements into viable, scalable cloud solutions. Collaborate with Engineering team to drive the DevOps strategy and prototype/execute on platform upgrades.'
     },
     second: {
-      title: 'Web Developer',
-      company: 'Fake Company Inc.',
+      title: 'Software Engineer',
+      company: 'DEF COMPANY (now GHI CO.)',
       time: 'Mar 2015 - Dec 2018',
-      location: 'Tampa, FL',
+      location: 'Sometown, MA',
       desc:
-        'Nunc gravida felis et magna placerat, vel varius lacus auctor. Nullam eget nisl ut massa efficitur cursus. Nam bibendum turpis eu libero mattis, dictum consequat diam gravida.'
+        'Recruited to help expand the capabilities of DEF’s cloud-based security applications. Positioning early-stage startup as a recognized industry leader and setting the stage for lucrative sale to GHI Co.'
     },
     third: {
-      title: 'Front-end Engineer',
-      company: 'FakeCorp',
-      time: 'Sep 2014 – Mar 2015',
-      location: 'Tampa, FL',
+      title: 'Web Developer',
+      company: 'SECURE CORP',
+      time: 'Sep 2012 – Mar 2015',
+      location: 'Sometown, MA',
       desc:
-        'Sed sed turpis consectetur, pulvinar mi vitae, faucibus purus. Aenean vel euismod velit. Mauris placerat, dui nec viverra faucibus, augue magna pulvinar justo, fermentum molestie libero ligula non ante.'
+        'Delivering the company’s first persistent, end-to-end data protection that allow users to control security protocols across multiple devices.'
     }
   },
   education: {
     first: {
-      title: 'High School Diploma',
-      company: 'Fake City H.S.',
+      title: 'BS in Computer Engineering',
+      company: 'ABC University',
       time: 'Aug 2006 – May 2010',
-      location: 'Capitol City, USA',
+      location: 'Sometown, MA',
       desc:
         'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elementum id nibh a posuere.'
     }
   },
   skills: [
+    'Go',
+    'Java',
+    'JavaScript',
+    'J2EE',
+    'C++',
+    'C',
+    'C#',
+    '.NET',
+    'Framework',
+    'AngularJS',
+    'jQuery',
+    'Git',
+    'PERL',
+    'Bash',
+    'Python',
+    'Smalltalk',
+    'Eclipse',
+    'JSP',
+    'ASP.NET',
+    'VB.NET',
+    'WebSphere',
+    'Hibernate',
+    'Mobile Development',
+    'AJAX',
+    'JSON',
+    'XML',
     'HTML',
     'CSS',
-    'SASS/SCSS',
-    'Javascript',
-    'VueJS',
-    'React',
-    'Angular',
-    'Table Tennis',
-    'Martial arts'
+    'Linux',
+    'SQL',
+    'Azure'
   ]
 }

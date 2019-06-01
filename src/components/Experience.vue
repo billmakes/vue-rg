@@ -40,16 +40,13 @@ export default {
   }
   &__Title {
     flex: 0 0 100%;
-    @include sm {
-      flex: 0 0 60%;
-    }
   }
   &__Details {
     display: flex;
     flex-direction: column;
+    padding-bottom: 1em;
     @include sm {
-      padding-bottom: 1em;
-      font-size: 0.9rem;
+      font-size: 14px;
     }
   }
   &__Desc {

@@ -60,6 +60,7 @@ export default {
     border-radius: 4px;
     padding: 0 0.75em;
     background-color: $primary-color;
+    color: $header-text-color;
     height: 2em;
     display: flex;
     align-items: center;
