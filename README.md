@@ -1,5 +1,6 @@
 # Vue Resume Generator
 
+![resume preview](preview.png)
 
 ## Get Started
 
