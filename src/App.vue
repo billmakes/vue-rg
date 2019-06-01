@@ -37,5 +37,8 @@ body {
   justify-content: center;
   margin: 1em;
   color: #333;
+  @include sm {
+    display: none;
+  }
 }
 </style>
