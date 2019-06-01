@@ -49,7 +49,7 @@ module.exports = {
   education: {
     first: {
       title: 'BS in Computer Engineering',
-      company: 'ABC University',
+      company: 'ABC UNIVERISTY',
       time: 'Aug 2006 – May 2010',
       location: 'Sometown, MA',
       desc:

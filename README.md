@@ -1,29 +1,26 @@
-# resume-generator
+# Vue Resume Generator
 
-## Project setup
+## Get Started
+
+Clone this repository and edit the `config.js` with your details.
+The theme variables are found in the `styles` directory, feel free to edit these. Set the theme you would like to use in `vue.config.js`, you will need to use the name of your themes directory. Have fun!
+
+### First install
+
 ```
-yarn install
+yarn
 ```
 
-### Compiles and hot-reloads for development
+### Compile and preview
+
 ```
-yarn run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
+
 ```
-yarn run build
+yarn build
 ```
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### TODO: FINISH THIS
