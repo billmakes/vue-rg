@@ -1,5 +1,7 @@
 # Vue Resume Generator
 
+![resume preview](preview.png)
+
 ## Get Started
 
 Clone this repository and edit the `config.js` with your details.

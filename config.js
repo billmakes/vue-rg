@@ -1,6 +1,6 @@
 module.exports = {
   bio: {
-    name: 'Thomas A. Anderson',
+    name: 'Robert A. Patterson',
     title: 'Software Developer',
     email: 'mail@mail.com',
     phone: '(555) 555-3215',
