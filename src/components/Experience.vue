@@ -6,7 +6,15 @@
       </div>
       <div class="Experience__Details">
         <span>{{ props.item.company }}</span>
-        <span>{{ props.item.time }}</span>
+        <span>
+          {{ props.item.start }} -
+          <span
+            v-if="props.item.end === 'Present' || props.item.end === 'present'"
+          >
+            <em>Present</em>
+          </span>
+          <span v-else>{{ props.item.end }}</span>
+        </span>
         <span>{{ props.item.location }}</span>
       </div>
       <div class="Experience__Desc">
