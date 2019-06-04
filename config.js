@@ -24,7 +24,8 @@ module.exports = {
     first: {
       title: 'Software Developer',
       company: 'ABC COMPANY',
-      time: 'Jan 2019 – Present',
+      start: 'Jan 2019',
+      end: 'Present',
       location: 'Sometown, MA',
       desc:
         'Serve in a client-facing role translating business requirements into viable, scalable cloud solutions. Collaborate with Engineering team to drive the DevOps strategy and prototype/execute on platform upgrades.'
@@ -32,7 +33,8 @@ module.exports = {
     second: {
       title: 'Software Engineer',
       company: 'DEF COMPANY (now GHI CO.)',
-      time: 'Mar 2015 - Dec 2018',
+      start: 'Mar 2015',
+      end: 'Dec 2018',
       location: 'Sometown, MA',
       desc:
         'Recruited to help expand the capabilities of DEF’s cloud-based security applications. Positioning early-stage startup as a recognized industry leader and setting the stage for lucrative sale to GHI Co.'
@@ -40,7 +42,8 @@ module.exports = {
     third: {
       title: 'Web Developer',
       company: 'SECURE CORP',
-      time: 'Sep 2012 – Mar 2015',
+      start: 'Sep 2012',
+      end: 'Mar 2015',
       location: 'Sometown, MA',
       desc:
         'Delivering the company’s first persistent, end-to-end data protection that allow users to control security protocols across multiple devices.'
@@ -50,7 +53,8 @@ module.exports = {
     first: {
       title: 'BS in Computer Engineering',
       company: 'ABC UNIVERISTY',
-      time: 'Aug 2006 – May 2010',
+      start: 'Aug 2006',
+      end: 'May 2010',
       location: 'Sometown, MA',
       desc:
         'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elementum id nibh a posuere.'

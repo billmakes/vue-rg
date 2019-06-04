@@ -4,20 +4,20 @@
       <Header :bio="bio" :social="social" />
     </div>
     <div class="Resume__Experience SectionBlock">
-      <h4>EXPERIENCE</h4>
+      <h4 class="Resume__BlockHeader">EXPERIENCE</h4>
       <div v-for="item in experience" :key="item.company">
         <Experience :item="item" />
       </div>
     </div>
-    <div class="Resume__Education SectionBlock">
-      <h4>EDUCATION</h4>
+    <div v-if="education" class="Resume__Education SectionBlock">
+      <h4 class="Resume__BlockHeader">EDUCATION</h4>
       <div v-for="item in education" :key="item.company">
         <Experience :item="item" />
       </div>
     </div>
 
     <div class="Resume__Skills SectionBlock">
-      <h4>PROFICIENCIES</h4>
+      <h4 class="Resume__BlockHeader">PROFICIENCIES</h4>
       <span class="tag" v-for="item in skills" :key="item">{{ item }}</span>
     </div>
     <div class="Resume__References SectionBlock">
@@ -56,7 +56,7 @@ export default {
   max-width: 8.5in;
   background-color: #fff;
   color: $content-text-color;
-  h4 {
+  &__BlockHeader {
     border-radius: 4px;
     padding: 0 0.75em;
     background-color: $primary-color;
