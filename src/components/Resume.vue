@@ -46,6 +46,9 @@ export default {
       education,
       skills
     }
+  },
+  created() {
+    document.title = this.bio.name
   }
 }
 </script>
